@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background: url("https://ru.minecraft.wiki/images/thumb/Ores.png/300px-Ores.png?37455") center/cover no-repeat;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #55ff55;
+    text-shadow:
+        2px 2px 0 #2d7f2d,
+        4px 4px 0 #1a4d1a,
+        6px 6px 0 #000;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.Mainwiki,
+.link {
+    display: inline-block;
+    background: linear-gradient(180deg, #6fdc6f, #3d8f3d);
+    color: white;
+    padding: 12px 24px;
+    border: 2px solid #2b5e2b;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 0 #2b5e2b, 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.Mainwiki:hover,
+.link:hover {
+    background: linear-gradient(180deg, #7fff7f, #45a049);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.Mainwiki:active,
+.link:active {
+    transform: translateY(2px) scale(0.98);
+    box-shadow: 0 2px 0 #2b5e2b;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+.fot,
+.skeleton,
+.stiv {
+    width: 450px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fot {
+    background: rgba(0, 128, 0, 0.85);
+    color: white;
+}
+
+.skeleton {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+.stiv {
+    background: rgba(139, 69, 19, 0.9);
+    color: white;
+}
+
+.fot:hover,
+.skeleton:hover,
+.stiv:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
